@@ -1,5 +1,5 @@
 apiVersion: v2
-name: gitops-namespaces-config
+name: gitops-namespaces-factory
 description: Gestão de Namespaces
 type: application
 version: 0.1.0

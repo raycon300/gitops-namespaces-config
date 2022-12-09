@@ -3,4 +3,8 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/raycon300/gitops-namespace-factory
-    targetRevision: HEAD    
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
