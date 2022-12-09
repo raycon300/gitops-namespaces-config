@@ -5,13 +5,15 @@ metadata:
   namespace: openshift-gitops
 spec:
   syncPolicy:
-    automated: {}
+    automated:
+      prune: {{ .Values.spec.syncPolicy.automated.prune }}
+      selfHeal: {{ .Values.spec.syncPolicy.automated.selfHeal }}
     syncOptions:
       - CreateNamespace=true
   destination:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: .
+    path: {{ .Values.spec.source.path }}
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
