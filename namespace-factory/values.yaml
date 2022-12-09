@@ -1,5 +1,5 @@
 
 namespaces:
-  - app-dev
-  - app-hmg
-  - app-prod
+  - ms-app-dev
+  - ms-app-hmg
+  - ms-app-prod
