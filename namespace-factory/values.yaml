@@ -1,5 +1,5 @@
 
 namespaces:
-  - app-first-dev
-  - app-first-hmg
-  - app-first-prod
+  - app-dev
+  - app-hmg
+  - app-prod
