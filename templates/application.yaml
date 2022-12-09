@@ -5,9 +5,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   syncPolicy:
-    automated:
-      prune: {{ .Values.spec.syncPolicy.automated.prune }}
-      selfHeal: {{ .Values.spec.syncPolicy.automated.selfHeal }}
+    automated: {}
     syncOptions:
       - CreateNamespace=true
   destination:
