@@ -1,0 +1,1 @@
+# Crate namespace repo
