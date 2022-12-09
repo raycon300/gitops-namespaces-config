@@ -5,7 +5,8 @@ metadata:
   namespace: openshift-gitops
 spec:
   syncPolicy:
-    automated: {}
+    automated: 
+      prune: true
     syncOptions:
       - CreateNamespace=true
   destination:
