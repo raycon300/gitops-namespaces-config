@@ -1,23 +1,5 @@
 
-namespaces-feed:
-  - name: app-a
-    envs:
-      - name: dev
-        #nodeSelectorNS : xyz 
-      - hml
-      - prod
-  
-  - name: app-b
-    envs:
-      - name: dev
-      - name: hml
-
-
 namespaces:
-  - java-dev
-  - java-hmg
-  - java-prod
-
-  - migracao-dev
-  - migracao-hmg
-  - migracao-prod
+  - app-a-dev
+  - app-a-hmg
+  - app-a-prod

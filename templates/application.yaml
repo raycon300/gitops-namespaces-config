@@ -1,19 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: {{ .Release.Name }}
+  name: app-namespaces
   namespace: openshift-gitops
 spec:
   syncPolicy:
-    automated:
-      prune: {{ .Values.spec.syncPolicy.automated.prune }}
-      selfHeal: {{ .Values.spec.syncPolicy.automated.selfHeal }}
+    automated: {}
     syncOptions:
       - CreateNamespace=true
   destination:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: {{ .Values.spec.source.path }}
+    path: namespace-factory
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
