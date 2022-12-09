@@ -4,7 +4,7 @@ spec:
   source:
     repoURL: https://github.com/raycon300/gitops-namespaces-config
     targetRevision: HEAD
-    path: "./namespace-factory"
+    path: namespace-factory
   syncPolicy:
     automated:
       prune: true
