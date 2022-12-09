@@ -1,5 +1,5 @@
 
 namespaces:
-  - ms-app-dev
-  - ms-app-hmg
-  - ms-app-prod
+  - ms-agendamento-dev
+  - ms-agendamento-hmg
+  - ms-agendamento-prod
