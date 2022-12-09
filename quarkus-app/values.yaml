@@ -1,11 +1,8 @@
 # Lista de namespaces a serem criados. Executar uma vez para criar os namespaces e depois criar os demais itens
 namespaces:
-  - java-dev
-  - java-hmg
-  - java-prod
-  - migracao-dev
-  - migracao-hmg
-  - migracao-prod
+  - quarkus-dev
+  - quarkus-hmg
+  - quarkus-prod
 
 # Lista de sufixos que serão aplicados como zonas
 #nodeSelectorNS:
