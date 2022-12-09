@@ -1,5 +1,5 @@
 
 namespaces:
-  - app-a-dev
-  - app-a-hmg
-  - app-a-prod
+  - app-b-dev
+  - app-b-hmg
+  - app-b-prod
