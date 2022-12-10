@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/raycon300/gitops-namespaces-config
+    repoURL: https://github.com/raycon300/gitops-namespace-factory
     targetRevision: HEAD
   syncPolicy:
     automated:
